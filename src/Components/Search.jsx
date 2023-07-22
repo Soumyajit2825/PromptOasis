@@ -131,7 +131,7 @@ function Search() {
     //   setGeneratedIdeas(ideasWithVisibility);
 
   return (
-    <div className="container bg-black flex items-center justify-center">
+    <div id="ideas" className="container bg-black flex items-center justify-center">
       <div className="max-w-md mx-auto p-6 rounded-lg shadow-lg text-center border-2 border-white">
         <h1 className="text-2xl font-bold mb-6 text-blue-500">Idea Generator</h1>
         <label className="text-blue-500 p-2" htmlFor="topicSelect">Choose a topic:</label>

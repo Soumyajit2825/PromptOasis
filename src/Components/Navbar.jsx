@@ -27,14 +27,14 @@ const Navbar = () => {
         <li>
           <Link
             activeClass="text-white"
-            to="store"
+            to="ideas"
             spy={true}
             smooth={true}
             offset={-70}
             duration={500}
             className="text-white hover:text-blue-500 transition duration-300 cursor-pointer"
           >
-            Store
+            Ideas
           </Link>
         </li>
         <li>
