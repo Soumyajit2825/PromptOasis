@@ -11,14 +11,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex items-center justify-between py-4 px-8 bg-black">
+    <nav className="flex items-center justify-between bg-black">
       <img
         src={Logo}
         alt="Logo"
         className="w-12 h-12 cursor-pointer border-2 border-white rounded"
       />
       <div className="hidden sm:flex space-x-4">
-        <ul className="flex space-x-4">
+        <ul className="flex space-x-4 text-lg">
           <li>
             <Link
               activeClass="text-white"

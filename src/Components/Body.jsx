@@ -3,6 +3,7 @@ import DarkLogo from '../Assets/Dark logo.jpeg';
 import Logo from '../Assets/Logo.jpeg';
 import Navbar from './Navbar';
 import Search from './Search';
+import About from './About';
 const Body = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
@@ -14,6 +15,7 @@ const Body = () => {
     <>
     <Navbar />
     <div className='flex flex-col items-center justify-center min-h-screen bg-black'>
+      <About />
       <img
         src={isDarkMode ? DarkLogo : Logo}
         alt="Logo"
