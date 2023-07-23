@@ -14,12 +14,12 @@ const Body = () => {
   return (
     <>
     <Navbar />
-    <div className='flex flex-col items-center justify-center min-h-screen bg-black'>
+    <div className='flex flex-col items-center justify-center bg-black'>
       <About />
       <img
         src={isDarkMode ? DarkLogo : Logo}
         alt="Logo"
-        className="cursor-pointer mb-4"
+        className="cursor-pointer"
         onClick={toggleMode}
       />
       {/* <input

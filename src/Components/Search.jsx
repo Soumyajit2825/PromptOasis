@@ -16,6 +16,8 @@ const ideasByTopic = {
     { idea: "Habit Tracker", description: "Build an app that helps users develop and track positive habits. Include features such as habit creation, reminders, streak tracking, and motivational prompts." },
     { idea: "Virtual Assistant App", description: "Design an app that serves as a digital assistant, offering voice-activated features such as setting reminders, providing weather updates, answering questions, and performing tasks like sending messages or making calls." },
     { idea: "Food Delivery App", description: "Develop a mobile app that allows users to order food from local restaurants for delivery or pickup. Include features like menus, reviews, payment integration, and real-time order tracking." },
+    { idea: "Online Marketplace for Local Artisans", description: "Create a platform where local artisans and craftsmen can sell their handmade products directly to customers, promoting local businesses and unique artistry." },
+    { idea: "Career Mentorship App", description: "Develop an app that connects experienced professionals with mentees seeking career guidance. Include features like one-on-one video calls, resume reviews, and personalized career advice." },
   ],
 webDev: [
     { idea: "E-commerce Platform", description: "Create a fully functional online store with features like product listings, shopping cart, user registration, secure payment integration, and order management." },
@@ -33,6 +35,8 @@ webDev: [
     { idea: "Volunteer Network", description: "Develop a platform that connects volunteers with charitable organizations, allowing users to find volunteer opportunities and sign up for various causes." },
     { idea: "News Aggregator", description: "Develop a website that collects and displays news articles from various sources on different topics. Implement features like categorization, search, personalized recommendations, and social sharing." },
     { idea: "Portfolio Website", description: "Design a website template for professionals to showcase their work and skills. Include sections for projects, resume, testimonials, and contact information. Make it customizable and easy to use." },
+    { idea: "Real Estate Listing Website", description: "Build a website where real estate agents and homeowners can list properties for sale or rent, along with features like property search, virtual tours, and contact forms." },
+    { idea: "Online Event Ticketing Platform", description: "Create a web platform for event organizers to sell tickets online, manage event details, and provide attendees with digital tickets and event information." },
   ],
 web3: [
     { idea: "Decentralized Marketplace", description: "Build a peer-to-peer marketplace where users can buy and sell goods or services directly, without intermediaries. Utilize smart contracts for secure transactions and decentralized storage for product listings and reviews." },
@@ -48,6 +52,8 @@ web3: [
     { idea: "DAO Governance Platform", description: "Develop a platform for decentralized autonomous organizations (DAOs) that allows participants to propose, vote on, and execute decisions using smart contracts, fostering transparent and community-driven governance." },
     { idea: "NFT Marketplace", description: "Build a platform for trading non-fungible tokens (NFTs) representing unique digital assets, such as artwork, collectibles, or virtual real estate. Enable creators to mint, list, and sell their NFTs directly to buyers." },
     { idea: "Decentralized Electronic Health Records (EHR) System", description: "Develop a decentralized electronic health records system that empowers patients to have ownership and control over their medical data while ensuring privacy, security, and interoperability." },
+    { idea: "Decentralized Art Ownership Platform", description: "Build a platform that allows artists to tokenize and sell ownership shares of their artwork, enabling art enthusiasts to invest in art as an asset class." },
+    { idea: "Blockchain-Based Intellectual Property Rights Registry", description: "Develop a decentralized registry where creators can timestamp their work on the blockchain to establish copyright and protect intellectual property rights." },
   ],
 aiMl: [
     { idea: "Predictive Analytics for Customer Churn", description: "Develop a model that predicts customer churn for a business based on historical customer data, helping to identify potential churners and take proactive measures to retain them." },
@@ -60,6 +66,8 @@ aiMl: [
     { idea: "Time Series Analysis for Predictive Maintenance", description: "Apply time series analysis techniques to sensor data from machinery or equipment to predict maintenance needs, allowing businesses to schedule maintenance proactively and minimize downtime." },
     { idea: "Customer Segmentation", description: "Use clustering algorithms to segment customers based on demographic, behavioral, or transactional data, enabling targeted marketing campaigns and personalized customer experiences." },
     { idea: "Disease Outbreak Prediction", description: "Build a model that predicts the likelihood and spread of infectious diseases based on factors like climate data, population density, and historical outbreak patterns, aiding in early detection and response planning." },
+    { idea: "Automated Customer Support Chatbot", description: "Create an AI-powered chatbot that can handle customer queries, provide instant support, and escalate complex issues to human agents when necessary." },
+    { idea: "AI-Driven Personalized News App", description: "Develop an app that uses machine learning algorithms to curate personalized news articles based on users' interests and reading behavior." },
   ],
 robotics: [
     { idea: "Autonomous Line Following Robot", description: "Design and build an autonomous robot capable of following a line on the ground without human intervention. The robot will be equipped with sensors and actuators that allow it to sense the line and adjust its movements accordingly to stay on the path." },
@@ -74,6 +82,8 @@ robotics: [
     { idea: "Drone Swarm Project", description: "Create a coordinated swarm of drones capable of performing tasks like aerial mapping, search and rescue missions, or package delivery. Focus on communication, coordination, and path planning algorithms" },
     { idea: "Robot for Education", description: "Design an educational robot that can teach programming, robotics concepts, or other STEM subjects to students. Provide a user-friendly interface and interactive learning experiences" },
     { idea: "Robot for Healthcare Assistance", description: "Develop a robot that assists healthcare professionals in tasks like patient monitoring, medication delivery, or elder care. Ensure safety, privacy, and effective human-robot interaction in healthcare settings" },
+    { idea: "Autonomous Delivery Robot", description: "Design a robot that can navigate sidewalks and streets to deliver packages, groceries, or food orders to customers' doorsteps autonomously." },
+    { idea: "Underwater Exploration Robot", description: "Build a robot equipped with sensors and cameras to explore and collect data in underwater environments, assisting marine research and environmental monitoring." },
   ],
   iot: [
     { idea: "Environmental Monitoring", description: "Create a sensor network to monitor environmental parameters like temperature, humidity, air quality, and soil moisture"},
@@ -81,6 +91,8 @@ robotics: [
     { idea: "Healthcare Monitoring Devices", description: "Build wearable IoT devices that track vital signs like heart rate, blood pressure, and body temperature. This data can be transmitted to healthcare professionals for remote monitoring of patients"},
     { idea: "Smart Pet Feeders", description: " Build an automated pet feeding system that dispenses food based on schedule or remotely controlled through a mobile app, ensuring pets are fed even when the owners are away"},
     { idea: "Smart Wearables", description: "Design IoT-enabled wearable devices like fitness trackers or smartwatches that integrate health monitoring, activity tracking, and smart notifications"}, 
+    { idea: "Smart Garden Irrigation System", description: "Create an IoT-based system that automatically waters plants based on soil moisture levels, weather conditions, and plant types, optimizing water usage for gardens." },
+    { idea: "IoT-Based Home Security System", description: "Develop a home security system with IoT sensors for door/window monitoring, motion detection, and remote access through a mobile app." },
   ],
   cloud: [
     { idea: "Cloud-Based File Sharing and Storage Platform", description: "Create a cloud storage and file-sharing platform similar to Dropbox or Google Drive. Allow users to upload, access, and share files securely over the internet"},
@@ -88,6 +100,8 @@ robotics: [
     { idea: "Cloud-Based Machine Learning Platform", description: "Develop a cloud-based platform that allows users to train and deploy machine learning models without the need for extensive hardware resources"},
     { idea: "Cloud-Based Virtual Classroom", description: " Create a cloud-based virtual classroom platform that facilitates online learning with features like video conferencing, interactive whiteboards, and content sharing"},
     { idea: "Cloud-Based Sentiment Analysis", description: "Build a cloud-based sentiment analysis tool that analyzes text data from social media or customer reviews to gauge public opinion about products, services, or events"}, 
+    { idea: "Cloud-Based Language Translation Service", description: "Build a cloud service that provides real-time language translation for websites, applications, or customer support interactions." },
+    { idea: "Cloud-Based Video Editing Suite", description: "Create a cloud-based video editing platform that allows users to edit and collaborate on video projects online without the need for powerful hardware." },
   ],
 };
 
